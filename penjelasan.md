@@ -19,8 +19,9 @@ sebenarnya ada 2 versi mas, yang versi pertama itu masih misah antara perulangan
 cara kerja function pembuat diamond star
 
 1. Menerima parameter number
-2. Cek apakah negative atau bukan
-3. Perulangan dibagi menjadi dua, yaitu perulangan atas dan perulangan bawah
+2. Cek bilangan bulatgit 
+3. Cek apakah negative atau bukan
+4. Perulangan dibagi menjadi dua, yaitu perulangan atas dan perulangan bawah
 
 Perulangan atas
 

@@ -75,6 +75,11 @@ function factorial($number)
 function diamond($number)
 {
 
+    if (!is_int($number)) {
+        echo "hanya boleh memasukan bilangan bulat";
+        return;
+    }
+
     if ($number < 0) {
         echo "angka tidak boleh dibawah 0";
         return;
@@ -102,6 +107,6 @@ function diamond($number)
 }
 
 
-diamond(5);
-factorial(5);
+diamond(2);
+factorial(5.2);
 // echo factorial(5);
