@@ -1,0 +1,47 @@
+<a href="/part_2/twoSum">Two Sum</a>
+<div style="margin: 2rem;"></div>
+
+<?php
+
+function isPalindrome($x)
+{
+    // return str_split($x);
+
+    // ubah jadi array
+    $numbers = str_split($x);
+    
+    // balik array nya
+    $reverse = array_reverse($numbers);
+    // var_dump($reverse);
+
+    // cek sama apa engga 
+    if($reverse !=  $numbers) {
+        return false;
+    }
+
+    return true;
+}
+
+var_dump(isPalindrome(121));
+echo "<br>";
+
+var_dump(isPalindrome(-121));
+echo "<br>";
+
+var_dump(isPalindrome(10));
+echo "<br>";
+
+var_dump(isPalindrome(22));
+echo "<br>";
+
+var_dump(isPalindrome(987656789));
+echo "<br>";
+
+var_dump(isPalindrome(505));
+echo "<br>";
+
+var_dump(isPalindrome(911));
+echo "<br>";
+
+var_dump(isPalindrome(1));
+echo "<br>";

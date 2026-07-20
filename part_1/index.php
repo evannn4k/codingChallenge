@@ -107,6 +107,6 @@ function diamond($number)
 }
 
 
-diamond(2);
-factorial(5.2);
+diamond(4);
+factorial(5);
 // echo factorial(5);
