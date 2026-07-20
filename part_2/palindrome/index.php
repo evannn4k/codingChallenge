@@ -3,23 +3,35 @@
 
 <?php
 
+// function isPalindrome($x)
+// {
+//     // return str_split($x);
+
+//     // ubah jadi array
+//     $numbers = str_split($x);
+
+//     // balik array nya
+//     $reverse = array_reverse($numbers);
+
+//     // echo "<pre>";
+//     // print_r($numbers);
+//     // echo "</pre>";
+//     // echo "<pre>";
+//     // var_dump($reverse);
+//     // echo "</pre>";
+
+//     // cek sama apa engga 
+//     if ($reverse !=  $numbers) {
+//         return false;
+//     }
+
+//     return true;
+// }
+
 function isPalindrome($x)
 {
-    // return str_split($x);
-
-    // ubah jadi array
-    $numbers = str_split($x);
-    
-    // balik array nya
-    $reverse = array_reverse($numbers);
-    // var_dump($reverse);
-
-    // cek sama apa engga 
-    if($reverse !=  $numbers) {
-        return false;
-    }
-
-    return true;
+    $reverse = strrev($x);
+    return $reverse == $x;
 }
 
 var_dump(isPalindrome(121));
