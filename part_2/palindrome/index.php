@@ -28,32 +28,37 @@
 //     return true;
 // }
 
-function isPalindrome($x)
-{
-    $reverse = strrev($x);
-    return $reverse == $x;
-}
+// function isPalindrome($x)
+// {
+//     return strrev($x) == $x;
+// }
 
-var_dump(isPalindrome(121));
+
+$isPalindrome = fn($x) => strrev($x) == $x;
+
+var_dump($isPalindrome(121));
 echo "<br>";
 
-var_dump(isPalindrome(-121));
-echo "<br>";
+// var_dump(isPalindrome(121));
+// echo "<br>";
 
-var_dump(isPalindrome(10));
-echo "<br>";
+// var_dump(isPalindrome(-121));
+// echo "<br>";
 
-var_dump(isPalindrome(22));
-echo "<br>";
+// var_dump(isPalindrome(10));
+// echo "<br>";
 
-var_dump(isPalindrome(987656789));
-echo "<br>";
+// var_dump(isPalindrome(22));
+// echo "<br>";
 
-var_dump(isPalindrome(505));
-echo "<br>";
+// var_dump(isPalindrome(987656789));
+// echo "<br>";
 
-var_dump(isPalindrome(911));
-echo "<br>";
+// var_dump(isPalindrome(505));
+// echo "<br>";
 
-var_dump(isPalindrome(1));
-echo "<br>";
+// var_dump(isPalindrome(911));
+// echo "<br>";
+
+// var_dump(isPalindrome(1));
+// echo "<br>";
